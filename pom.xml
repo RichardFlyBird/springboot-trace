@@ -20,36 +20,8 @@
     </properties>
 
     <modules>
-        <module>springboot-log4j2</module>
-        <module>springboot-logback</module>
-        <module>springboot-trace</module>
-        <module>springboot-log-demo</module>
+        <module>springboot-trace-MDC</module>
     </modules>
-
-    <dependencyManagement>
-        <dependencies>
-            <!--<dependency>-->
-                <!--<groupId>org.springframework.boot</groupId>-->
-                <!--<artifactId>spring-boot-starter-test</artifactId>-->
-                <!--<version>2.0.4.RELEASE</version>-->
-                <!--<scope>test</scope>-->
-            <!--</dependency>-->
-
-            <!--&lt;!&ndash;mysql&ndash;&gt;-->
-            <!--<dependency>-->
-                <!--<groupId>mysql</groupId>-->
-                <!--<artifactId>mysql-connector-java</artifactId>-->
-                <!--<version>6.0.6</version>-->
-            <!--</dependency>-->
-
-            <!--&lt;!&ndash;mybatisplus&ndash;&gt;-->
-            <!--<dependency>-->
-                <!--<groupId>com.baomidou</groupId>-->
-                <!--<artifactId>mybatis-plus-boot-starter</artifactId>-->
-                <!--<version>3.1.2</version>-->
-            <!--</dependency>-->
-        </dependencies>
-    </dependencyManagement>
 
     <build>
         <finalName>${project.artifactId}</finalName>
